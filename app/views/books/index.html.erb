@@ -1,0 +1,5 @@
+<h1>Welcome to Matt's Library</h1>
+<h2>Check out my books!</h2>
+<% @books.each do |book| %>
+	<p><%= "#{book.title} by #{book.author}" %></p>
+<% end %>
